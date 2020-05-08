@@ -1,0 +1,431 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20192.19.0718.1543                               -->
+<workbook original-version='18.1' source-build='2019.2.2 (20192.19.0718.1543)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <SheetIdentifierTracking ignorable='true' predowngraded='true' />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='data-capstone-project.csv (_333d0aff25cda9e5baa453d609e525eb_data-capstone-project)' inline='true' name='federated.1gwdow61xa9jby1bfy79f1mofdr2' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='_333d0aff25cda9e5baa453d609e525eb_data-capstone-project' name='excel-direct.1deg0so11n5rw114ho8ho05epbvx'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/User/Desktop/_333d0aff25cda9e5baa453d609e525eb_data-capstone-project.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <relation connection='excel-direct.1deg0so11n5rw114ho8ho05epbvx' name='data-capstone-project.csv' table='[&apos;data-capstone-project#csv$&apos;]' type='table'>
+          <columns gridOrigin='A1:N7152:no:A1:N7152:0' header='yes' outcome='6'>
+            <column datatype='integer' name='id' ordinal='0' />
+            <column datatype='integer' name='member_id' ordinal='1' />
+            <column datatype='string' name='loan_status' ordinal='2' />
+            <column datatype='integer' name='loan_amnt' ordinal='3' />
+            <column datatype='real' name='int_rate' ordinal='4' />
+            <column datatype='real' name='installment' ordinal='5' />
+            <column datatype='string' name='home_ownership' ordinal='6' />
+            <column datatype='real' name='annual_inc' ordinal='7' />
+            <column datatype='string' name='verification_status' ordinal='8' />
+            <column datatype='integer' name='revol_bal' ordinal='9' />
+            <column datatype='real' name='revol_util' ordinal='10' />
+            <column datatype='integer' name='total_acc' ordinal='11' />
+            <column datatype='integer' name='acc_open_past_24mths' ordinal='12' />
+            <column datatype='real' name='total_pymnt' ordinal='13' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='column'>
+            <remote-name>id</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[id]</local-name>
+            <parent-name>[data-capstone-project.csv]</parent-name>
+            <remote-alias>id</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>member_id</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[member_id]</local-name>
+            <parent-name>[data-capstone-project.csv]</parent-name>
+            <remote-alias>member_id</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>loan_status</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[loan_status]</local-name>
+            <parent-name>[data-capstone-project.csv]</parent-name>
+            <remote-alias>loan_status</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>loan_amnt</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[loan_amnt]</local-name>
+            <parent-name>[data-capstone-project.csv]</parent-name>
+            <remote-alias>loan_amnt</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>int_rate</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[int_rate]</local-name>
+            <parent-name>[data-capstone-project.csv]</parent-name>
+            <remote-alias>int_rate</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>installment</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[installment]</local-name>
+            <parent-name>[data-capstone-project.csv]</parent-name>
+            <remote-alias>installment</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>home_ownership</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[home_ownership]</local-name>
+            <parent-name>[data-capstone-project.csv]</parent-name>
+            <remote-alias>home_ownership</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>annual_inc</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[annual_inc]</local-name>
+            <parent-name>[data-capstone-project.csv]</parent-name>
+            <remote-alias>annual_inc</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>verification_status</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[verification_status]</local-name>
+            <parent-name>[data-capstone-project.csv]</parent-name>
+            <remote-alias>verification_status</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>revol_bal</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[revol_bal]</local-name>
+            <parent-name>[data-capstone-project.csv]</parent-name>
+            <remote-alias>revol_bal</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>revol_util</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[revol_util]</local-name>
+            <parent-name>[data-capstone-project.csv]</parent-name>
+            <remote-alias>revol_util</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>total_acc</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[total_acc]</local-name>
+            <parent-name>[data-capstone-project.csv]</parent-name>
+            <remote-alias>total_acc</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>acc_open_past_24mths</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[acc_open_past_24mths]</local-name>
+            <parent-name>[data-capstone-project.csv]</parent-name>
+            <remote-alias>acc_open_past_24mths</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>total_pymnt</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[total_pymnt]</local-name>
+            <parent-name>[data-capstone-project.csv]</parent-name>
+            <remote-alias>total_pymnt</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[data-capstone-project.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:N7152:no:A1:N7152:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>6</attribute>
+            </attributes>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='integer' name='[Int Rate (bin)]' role='dimension' type='quantitative'>
+        <calculation class='bin' decimals='0' formula='[int_rate]' peg='0' size='1.33' />
+      </column>
+      <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+        <calculation class='tableau' formula='1' />
+      </column>
+      <column caption='Acc Open Past 24Mths' datatype='integer' name='[acc_open_past_24mths]' role='measure' type='quantitative' />
+      <column caption='Annual Inc' datatype='real' name='[annual_inc]' role='measure' type='quantitative' />
+      <column caption='Home Ownership' datatype='string' name='[home_ownership]' role='dimension' type='nominal' />
+      <column caption='Id' datatype='integer' name='[id]' role='dimension' type='ordinal' />
+      <column caption='Installment' datatype='real' name='[installment]' role='measure' type='quantitative' />
+      <column caption='Int Rate' datatype='real' name='[int_rate]' role='measure' type='quantitative' />
+      <column caption='Loan Amnt' datatype='integer' name='[loan_amnt]' role='measure' type='quantitative' />
+      <column caption='Loan Status' datatype='string' name='[loan_status]' role='dimension' type='nominal' />
+      <column caption='Member Id' datatype='integer' name='[member_id]' role='dimension' type='ordinal' />
+      <column caption='Revol Bal' datatype='integer' name='[revol_bal]' role='measure' type='quantitative' />
+      <column caption='Revol Util' datatype='real' name='[revol_util]' role='measure' type='quantitative' />
+      <column caption='Total Acc' datatype='integer' name='[total_acc]' role='measure' type='quantitative' />
+      <column caption='Total Pymnt' datatype='real' name='[total_pymnt]' role='measure' type='quantitative' />
+      <column caption='Verification Status' datatype='string' name='[verification_status]' role='dimension' type='nominal' />
+      <layout dim-ordering='alphabetic' dim-percentage='0.434509' measure-ordering='alphabetic' measure-percentage='0.565491' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='data-capstone-project.csv (_333d0aff25cda9e5baa453d609e525eb_data-capstone-project)' name='federated.1gwdow61xa9jby1bfy79f1mofdr2' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1gwdow61xa9jby1bfy79f1mofdr2'>
+            <column datatype='integer' name='[Int Rate (bin)]' role='dimension' type='quantitative'>
+              <calculation class='bin' decimals='0' formula='[int_rate]' peg='0' size='1.33' />
+            </column>
+            <column-instance column='[int_rate]' derivation='Count' name='[cnt:int_rate:qk]' pivot='key' type='quantitative' />
+            <column caption='Int Rate' datatype='real' name='[int_rate]' role='measure' type='quantitative' />
+            <column-instance column='[Int Rate (bin)]' derivation='None' name='[none:Int Rate (bin):qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+          </pane>
+        </panes>
+        <rows>[federated.1gwdow61xa9jby1bfy79f1mofdr2].[cnt:int_rate:qk]</rows>
+        <cols>[federated.1gwdow61xa9jby1bfy79f1mofdr2].[none:Int Rate (bin):qk]</cols>
+        <show-full-range>
+          <column>[federated.1gwdow61xa9jby1bfy79f1mofdr2].[none:Int Rate (bin):qk]</column>
+        </show-full-range>
+      </table>
+      <simple-id uuid='{18DB1D66-D8E7-4873-AD11-B9B7EE280A9F}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' maximized='true' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1gwdow61xa9jby1bfy79f1mofdr2].[none:Int Rate (bin):qk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{0639813F-DAB3-45AC-A65B-C1E271621310}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Sheet 1' width='192'>
+      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
+      olkAAAAASUVORK5CYII=
+    </thumbnail>
+  </thumbnails>
+</workbook>
